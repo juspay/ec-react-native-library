@@ -1,0 +1,33 @@
+
+{
+  "name": "@juspay/ec-react-native-library",
+  "version": "1.0.0",
+  "description": "A react-native native module library for the Juspay Express Checkout Sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native", 
+    "express", 
+    "checkout", 
+    "juspay"
+  ],
+  "author": "Kiran Puppala",
+  "contributors": [
+    {
+      "name": "Kiran Puppala",
+      "email": "kiran.puppala@juspay.in"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/juspay/ec-react-native-library/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/juspay/ec-react-native-library#readme",
+  "peerDependencies": {
+    "react-native": "^0.41.2",
+    "react-native-windows": "0.41.0-rc.1"
+
+  }
+}
