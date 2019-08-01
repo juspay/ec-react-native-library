@@ -23,7 +23,7 @@ var nbPayload = {
                   format: "json"
                 }
 //Here payload format is specified for netbanking transaction. For different types of payload types 
-//for other operations, refer https://www.juspay.in/docs/hyper-sdk/android/ExpressCheckout/index.html
+//for other operations, refer https://developer.juspay.in/docs/expresscheckout-sdk
 
 
 var requestPayload = {
