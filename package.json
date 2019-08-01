@@ -1,7 +1,7 @@
 
 {
   "name": "@juspay/ec-react-native-library",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A react-native native module library for the Juspay Express Checkout Sdk",
   "main": "index.js",
   "scripts": {
