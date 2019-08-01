@@ -6,3 +6,7 @@
 
 * Bumping Up EC SDK Version and Minor Bug Fixes
 * Modified Documentation.
+
+### 1.0.2
+
+* Minor changes
