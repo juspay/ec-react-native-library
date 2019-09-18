@@ -10,6 +10,14 @@ $ npm install @juspay/ec-react-native-library --save
 $ react-native link @juspay/ec-react-native-library
 ```
 
+Add below maven url to your app/build.gradle 
+
+```sh 
+    maven {
+        url "https://maven.juspay.in/jp-build-packages/release/"
+    }
+```
+
 ## Usage 
 
 ```sh
