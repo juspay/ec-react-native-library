@@ -37,6 +37,6 @@ repositories {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    api 'in.juspay:godel-ec:1.0.7.12'
+    api 'in.juspay:godel-ec:1.0.7.15'
 }
   
