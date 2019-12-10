@@ -14,3 +14,7 @@
 ### 1.0.4
 
 * Added iOS podspec file
+
+### 1.0.5
+
+* Class name fix for iOS

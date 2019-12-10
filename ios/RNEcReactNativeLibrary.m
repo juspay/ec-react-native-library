@@ -2,13 +2,13 @@
 #import "RNEcReactNativeLibrary.h"
 #import <HyperSDK/HyperSDK.h>
 
-@interface RNEcReactNativeLibrary()
+@interface EcReactNativeLibrary()
 
 @property (nonatomic, strong) Hyper *hyper;
 
 @end
 
-@implementation RNEcReactNativeLibrary
+@implementation EcReactNativeLibrary
 
 - (dispatch_queue_t)methodQueue
 {
@@ -65,4 +65,4 @@ RCT_EXPORT_METHOD(startPayment:(NSString *)payload :(RCTResponseSenderBlock)succ
 }
 
 @end
-  
+ 
