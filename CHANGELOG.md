@@ -18,3 +18,7 @@
 ### 1.0.5
 
 * Class name fix for iOS
+
+### 1.0.6
+
+* Android null check for callbacks
