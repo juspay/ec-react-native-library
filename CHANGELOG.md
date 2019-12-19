@@ -22,3 +22,7 @@
 ### 1.0.6
 
 * Android null check for callbacks
+
+### 1.0.7
+
+* Android package name changed

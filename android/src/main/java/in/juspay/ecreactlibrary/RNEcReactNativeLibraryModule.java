@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package in.juspay.ecreactlibrary;
 
 import android.content.Intent;
 import android.os.Bundle;

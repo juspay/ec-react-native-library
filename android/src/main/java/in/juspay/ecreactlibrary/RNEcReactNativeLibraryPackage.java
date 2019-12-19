@@ -1,5 +1,5 @@
 
-package com.reactlibrary;
+package in.juspay.ecreactlibrary;
 
 import java.util.Arrays;
 import java.util.Collections;
