@@ -26,3 +26,7 @@
 ### 1.0.7
 
 * Android package name changed
+
+### 1.0.8
+
+* Null check in Android for intent data

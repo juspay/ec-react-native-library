@@ -43,7 +43,7 @@ public class RNEcReactNativeLibraryModule extends ReactContextBaseJavaModule {
     private ActivityEventListener activityEventListener = new ActivityEventListener() {
         @Override
         public void onActivityResult(Activity activity, int requestCode, int resultCode, Intent data) {
-            if(successCallback == null || errorCallback == null){
+            if(successCallback == null || errorCallback == null || data == null){
                 return;
             }
             String result = data.getStringExtra("payload");
