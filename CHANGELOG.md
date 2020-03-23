@@ -30,3 +30,7 @@
 ### 1.0.8
 
 * Null check in Android for intent data
+
+### 1.0.9
+
+* Updates iOS SDK version and bug fix in podspec file
