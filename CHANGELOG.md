@@ -33,4 +33,8 @@
 
 ### 1.0.9
 
-* Updates iOS SDK version and bug fix in podspec file
+* Updated iOS SDK version and bug fix in podspec file
+
+### 1.0.10
+
+* Updated iOS SDK version
