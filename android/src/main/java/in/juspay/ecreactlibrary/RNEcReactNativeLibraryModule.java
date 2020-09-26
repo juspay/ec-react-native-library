@@ -43,7 +43,7 @@ public class RNEcReactNativeLibraryModule extends ReactContextBaseJavaModule {
     private ActivityEventListener activityEventListener = new ActivityEventListener() {
         @Override
         public void onActivityResult(Activity activity, int requestCode, int resultCode, Intent data) {
-            if(successCallback == null || errorCallback == null || data == null){
+            if (successCallback == null || errorCallback == null || data == null || requestCode != REQUEST_CODE) {
                 return;
             }
             String result = data.getStringExtra("payload");
@@ -55,7 +55,7 @@ public class RNEcReactNativeLibraryModule extends ReactContextBaseJavaModule {
                 }
             } catch (Exception e) {
                 e.printStackTrace();
-                errorCallback.invoke(e.getMessage());
+                // errorCallback.invoke(e.getMessage());
             }
         }
 
