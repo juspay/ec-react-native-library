@@ -38,3 +38,7 @@
 ### 1.0.10
 
 * Updated iOS SDK version
+
+### 1.0.11
+
+* Fix for multiple callback invocation
