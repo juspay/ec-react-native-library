@@ -50,7 +50,7 @@ var requestPayload = {
                   service: "in.juspay.ec",
                   session_token: "pass client auth token",
                   endUrls: [], //eg: ["https://www.reload.in/recharge/", ".*www.reload.in/payment/f.*"]
-                  payload: nbPayload 
+                  payload: JSON.stringify(nbPayload 
                 },
                 customParams: {} //customParams are optional key value pairs. 
               }
