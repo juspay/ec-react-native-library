@@ -17,7 +17,7 @@ android {
     buildToolsVersion "28.0.3"
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -30,13 +30,13 @@ android {
 repositories {
     mavenCentral()
     maven {
-        url "https://maven.juspay.in/jp-build-packages/release/"
+        url "https://maven.juspay.in/jp-build-packages/hyper-sdk/"
     }
     google()
 }
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    api 'in.juspay:godel-ec:1.0.7.15'
+    api 'in.juspay:hyper-wrapper:2.0.0-13'
 }
   
