@@ -122,7 +122,7 @@ public class RNEcReactNativeLibraryModule extends ReactContextBaseJavaModule {
         Iterator keys = jsonObject.keys();
         while (keys.hasNext()){
             String key = (String) keys.next();
-            Object value = jsonObject.getString(key);
+            Object value = jsonObject.get(key);
 
             if (value instanceof JSONArray) {
                 JSONArray jsonArray = (JSONArray) value;
