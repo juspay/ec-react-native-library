@@ -42,3 +42,7 @@
 ### 1.0.11
 
 * Fix for multiple callback invocation
+
+### 1.0.12
+
+* Changes for 2.0 wrapper - Android
