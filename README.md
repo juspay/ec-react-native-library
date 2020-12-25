@@ -1,24 +1,40 @@
-# @juspay/ec-react-native-library integration 
+# @juspay/ec-react-native-library integration
 
-This is react-native library for Juspay's Express Checkout SDK. For installing it to your project. Follow the below steps. 
+This is react-native library for Juspay's Express Checkout SDK. For installing it to your project. Follow the below steps.
 
-## Installation 
-
+## Installation
 
 ```sh
-$ npm install @juspay/ec-react-native-library --save
-$ react-native link @juspay/ec-react-native-library
+npm install @juspay/ec-react-native-library --save
+react-native link @juspay/ec-react-native-library
 ```
 
-Add below maven url to your app/build.gradle 
+Add below maven url to your app/build.gradle
 
-```sh 
+```groovy
     maven {
-        url "https://maven.juspay.in/jp-build-packages/release/"
+        url "https://maven.juspay.in/jp-build-packages/hyper-sdk/"
     }
 ```
 
-## Usage 
+**(Optional)** Add the following ext properties in root `build.gradle` if you want to override either of the base SDK versions present in plugin:
+
+```groovy
+buildscript {
+  ....
+   ext {
+       ....
+       hyperSDKVersion = "2.0.1-rc.40"
+       hyperWrapperVersion = "2.0.0-13"
+       ....
+   }
+   ....
+}
+```
+
+Note: These versions are just for explanatory purposes and may change in future. Contact Juspay support team for the latest SDK versions.
+
+## Usage
 
 ```sh
 import EcReactNativeLibrary from '@juspay/ec-react-native-library';
@@ -65,5 +81,3 @@ var requestPayload = {
               );
 
 ```
-
-
