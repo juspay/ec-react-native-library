@@ -35,8 +35,22 @@ repositories {
     google()
 }
 
+def getHyperWrapperVersion () {
+    if (rootProject.hasProperty('hyperWrapperVersion')) {
+        return rootProject.hyperWrapperVersion
+    }
+    def hyper_wrapper_version = '2.0.0-13'
+    return hyper_wrapper_version
+}
+
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    api 'in.juspay:hyper-wrapper:2.0.0-13'
+    if (rootProject.hasProperty('hyperSDKVersion')) {
+        api ("in.juspay:hyper-wrapper:${getHyperWrapperVersion()}") {
+            exclude group: 'in.juspay', module: 'hypersdk'
+        }
+        api "in.juspay:hypersdk:$rootProject.hyperSDKVersion"
+    } else {
+        api "in.juspay:hyper-wrapper:${getHyperWrapperVersion()}"
+    }
 }
-  
