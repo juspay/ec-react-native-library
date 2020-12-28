@@ -6,8 +6,12 @@ This is react-native library for Juspay's Express Checkout SDK. For installing i
 
 ```sh
 npm install @juspay/ec-react-native-library --save
+
+// Required only if react-native version is below 0.60.0
 react-native link @juspay/ec-react-native-library
 ```
+
+## Android
 
 Add below maven url to your app/build.gradle
 
@@ -33,6 +37,14 @@ buildscript {
 ```
 
 Note: These versions are just for explanatory purposes and may change in future. Contact Juspay support team for the latest SDK versions.
+
+## iOS
+
+Run the following command inside the ios folder of your react native project:
+
+```sh
+pod install
+```
 
 ## Usage
 

@@ -46,3 +46,7 @@
 ### 1.0.12
 
 * Changes for 2.0 wrapper - Android
+
+### 1.0.13
+
+* Added option to override hyper-sdk-version from outside react plugin - Android
