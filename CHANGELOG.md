@@ -50,3 +50,7 @@
 ### 1.0.13
 
 * Added option to override hyper-sdk-version from outside react plugin - Android
+
+### 1.0.14
+
+* Type casting fix - Android
