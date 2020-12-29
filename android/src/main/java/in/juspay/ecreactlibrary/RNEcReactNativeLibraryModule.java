@@ -100,6 +100,7 @@ public class RNEcReactNativeLibraryModule extends ReactContextBaseJavaModule {
 
             Bundle intentBundle = jsonToBundle(baseParams);
             intentBundle.putAll(jsonToBundle(serviceParams));
+            
             intentBundle.putAll(jsonToBundle(customParams));
 
             Intent intent = new Intent(this.reactContext, PaymentActivity.class);
@@ -157,6 +158,6 @@ public class RNEcReactNativeLibraryModule extends ReactContextBaseJavaModule {
         }
 
 
-        return bundle;
+        return bundle; 
     }
 }
