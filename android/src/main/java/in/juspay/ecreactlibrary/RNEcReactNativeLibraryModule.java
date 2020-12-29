@@ -139,11 +139,19 @@ public class RNEcReactNativeLibraryModule extends ReactContextBaseJavaModule {
                 bundle.putStringArrayList(key, arrayList);
             } else {
                 if (value instanceof JSONObject) {
-                    Log.d(LOG_TAG, value.toString());
                     bundle.putString(key, value.toString());
-                } else {
-                    Log.d(LOG_TAG, "Value is non Json Object");
+                } else if (value instanceof String) {
                     bundle.putString(key, (String) value);
+                } else if (value instanceof Integer) {
+                    bundle.putInt(key, (Integer) value);
+                } else if (value instanceof Boolean) {
+                    bundle.putBoolean(key, (Boolean) value);
+                } else if (value instanceof Float) {
+                    bundle.putFloat(key, (Float) value);
+                } else if (value instanceof Double) {
+                    bundle.putDouble(key, (Double) value);
+                } else if (value instanceof Long) {
+                    bundle.putLong(key, (Long) value);
                 }
             }
         }
