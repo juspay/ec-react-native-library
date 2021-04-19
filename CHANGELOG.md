@@ -54,3 +54,7 @@
 ### 1.0.14
 
 * Type casting fix - Android
+
+### 1.0.15
+
+* Updated wrapper version - Android
