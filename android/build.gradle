@@ -39,7 +39,7 @@ def getHyperWrapperVersion () {
     if (rootProject.hasProperty('hyperWrapperVersion')) {
         return rootProject.hyperWrapperVersion
     }
-    def hyper_wrapper_version = '2.0.0-13'
+    def hyper_wrapper_version = '2.0.0-19'
     return hyper_wrapper_version
 }
 
