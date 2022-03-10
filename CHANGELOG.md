@@ -58,3 +58,7 @@
 ### 1.0.15
 
 * Updated wrapper version - Android
+
+### 1.0.16
+
+* Updated iOS SDK version for Xcode 13
